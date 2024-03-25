@@ -1,0 +1,35 @@
+body
+	{
+		background: linear-gradient(to bottom, #0099ff 0%, #66ff66 100%);
+	}
+
+h2
+	{
+		color: orange;
+		text-decoration: underline;
+	}
+
+.top_images
+	{
+		width: 150px;
+		height: 150px;
+	}
+
+.text_label
+	{
+		width: 10%;
+		vertical-align: middle;
+		position: relative;
+		display: inline-block;
+	}	
+
+.checkboxes_input
+	{
+		vertical-align: middle;
+		position: relative;
+		display: inline-block;
+	}
+	
+	
+
+	

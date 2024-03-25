@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>Payment Processing Page</title>
+		<meta charset="UTF-8">
+		<link href="images/gear_settings_icon_176361.ico" rel="icon">
+		<link href="mySite.css" rel="stylesheet">
+		<script src="script.js"></script>
+	</head>
+
+	<body>
+		<main>
+	
+			<h2>Enter Payment Information</h2>
+		
+			<img src="images/AmEx.PNG" class="top_images" alt="American Express">
+			<img src="images/Discover.PNG" class="top_images" alt="Discover">
+			<img src="images/MasterCard.PNG" class="top_images" alt="MasterCard">
+			<img src="images/Visa.PNG" class="top_images" alt="Visa">
+			
+		
+		</main>
+		
+		<form onSubmit="return validateForm();">
+
+			<section>
+				
+				<label for="first_name" class="text_label">First Name:
+				<input type="text" name="first_name" id="first_name" class="checkboxes_input" required>
+				</label>
+				
+				<p></p>
+				
+				<label for="last_name" class="text_label">Last Name:
+				<input type="text" name="last_name" id="last_name" class="checkboxes_input" required>
+				</label>
+				
+				<p></p>
+				
+				<label for="address" class="text_label">Address:
+				<input type="text" name="address" id="address" class="checkboxes_input" required>
+				</label>
+				
+				<p></p>
+				
+				<label for="city" class="text_label">City:
+				<input type="text" name="city" id="city" class="checkboxes_input" required>
+				</label>
+				
+				<p></p>
+				
+				<label for="zip" class="text_label">Zip:
+				<input type="text" name="zip" id="zip" class="checkboxes_input" required>
+				</label>
+				
+				<p></p>
+				
+				<label for="email" class="text_label">Email Address:
+				<input type="text" name="email" id="email" class="checkboxes_input" required>
+				</label>
+				
+				<p></p>
+				
+				<label for="cardholder_name" class="text_label">Name on Card:
+				<input type="text" name="cardholder_name" id="cardholder_name" class="checkboxes_input" required>
+				</label>
+				
+				<p></p>
+				
+				<label for="cardNumber" class="text_label">Card Number:
+				<input type="text" name="cardNumber" id="cardNumber" class="checkboxes_input" required>
+				</label>
+				
+				<p></p>
+				
+				<label for="CVC" class="text_label"><a href="https://en.wikipedia.org/wiki/Card_security_code" target="_blank">CVV2/CVC:</a>
+				<input type="text" name="CVC" id="CVC" class="checkboxes_input" required>
+				</label>
+				
+				<p></p>
+				
+			</section>
+			
+			<section>
+				
+				<label for="States">States:
+					<select name="State" id="States" required>
+						<option value="select_state" selected="selected">Select State</option>
+						<option value="alabama">Alabama</option>
+						<option value="alaska">Alaska</option>
+						<option value="arizona">Arizona</option>
+						<option value="arkansas">Arkansas</option>
+						<option value="california">California</option>
+						<option value="colorado">Colorado</option>
+						<option value="connecticut">Connecticut</option>
+						<option value="delaware">Delaware</option>
+						<option value="florida">Florida</option>
+						<option value="georgia">Georgia</option>
+						<option value="hawaii">Hawaii</option>
+						<option value="idaho">Idaho</option>
+						<option value="illinois">Illinois</option>
+						<option value="indiana">Indiana</option>
+						<option value="iowa">Iowa</option>
+						<option value="kansas">Kansas</option>
+						<option value="kentucky">Kentucky</option>
+						<option value="louisiana">Louisiana</option>
+						<option value="maine">Maine</option>
+						<option value="maryland">Maryland</option>
+						<option value="massachusetts">Massachusetts</option>
+						<option value="michigan">Michigan</option>
+						<option value="minnesota">Minnesota</option>
+						<option value="mississippi">Mississippi</option>
+						<option value="missouri">Missouri</option>
+						<option value="montana">Montana</option>
+						<option value="nebraska">Nebraska</option>
+						<option value="nevada">Nevada</option>
+						<option value="new_hampshire">New Hampshire</option>
+						<option value="new_jersey">New Jersey</option>
+						<option value="new_mexico">New Mexico</option>
+						<option value="new_york">New York</option>
+						<option value="north_carolina">North Carolina</option>
+						<option value="north_dakota">North Dakota</option>
+						<option value="ohio">Ohio</option>
+						<option value="oklahoma">Oklahoma</option>
+						<option value="oregon">Oregon</option>
+						<option value="pennsylvania">Pennsylvania</option>
+						<option value="rhode_island">Rhode Island</option>
+						<option value="south_carolina">South Carolina</option>
+						<option value="south_dakota">South Dakota</option>
+						<option value="tennessee">Tennessee</option>
+						<option value="texas">Texas</option>
+						<option value="Utah">Utah</option>
+						<option value="Vermont">Vermont</option>
+						<option value="Virginia">Virginia</option>
+						<option value="washington">Washington</option>
+						<option value="west_virginia">West Virginia</option>
+						<option value="wisconsin">Wisconsin</option>
+						<option value="wyoming">Wyoming</option>
+					</select>
+				</label>
+				
+				<p></p>
+				
+			</section>
+			
+			<section>
+			
+				<label for="exp_date" class="text_label">Expiration Date:
+				<input type="month" name="exp_date" id="exp_date" min="2021-05" max="2025-12" value="2023-05" class="checkboxes_input" required>
+				</label>
+			
+				<p></p>
+			
+			</section>
+			
+			<section>
+			
+				<label for="submit_button">
+				<input type="image" src="images/PayNow.PNG" alt="Submit" id="submit_button" name="submit_button">
+				</label>
+			
+			</section>
+			
+		</form>
+		
+		<nav>
+			<p><a href="https://karimhussien.pro" target="_blank">ePortfolio</a>
+		</nav>
+		
+	</body>
+</html>
